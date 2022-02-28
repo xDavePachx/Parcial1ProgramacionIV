@@ -1,6 +1,7 @@
 <template>
 <div class="p-3" style="max-width: 400px; margin: 50px auto; background: #234">
   <Center><h2>CALCULADORA BASICA</h2></Center>
+  <Center><h3>Bienvenido usuario {{vNombre}} que tenga un gran día</h3></Center>
   <!-- Resultado: -->
     <div class="w-full rounded m-1 p-3 text-right lead font-weight-bold text-white bg-vue-dark">
       {{ valorCalculado || 0 }}
